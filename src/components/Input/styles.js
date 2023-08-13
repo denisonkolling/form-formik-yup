@@ -24,3 +24,8 @@ export const Label = styled.label`
 export const RequiredLabel = styled.span`
 	color: red;
 `;
+
+export const ErrorStyled = styled.span`
+	color: red;
+	font-size: 14px;
+`;

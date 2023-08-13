@@ -1,8 +1,8 @@
-import React from 'react'
+import Registration from "./pages/form"
 
 const App = () => {
   return (
-    <div>App</div>
+    <Registration />
   )
 }
 
