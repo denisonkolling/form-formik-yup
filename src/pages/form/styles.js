@@ -22,4 +22,23 @@ export const Row = styled.div`
 	@media (max-width: 550px) {
 		display: block;
 	}
-`;
+`
+
+export const ButtonContainer = styled.div`
+text-align: end;
+`
+
+export const Button = styled.button`
+  padding: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #0081cf;
+  color: white;
+  border: none;
+  border-radius: 5px;
+
+  &:hover {
+    opacity: 0.85;
+  }
+`
+;
